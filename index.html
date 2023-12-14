@@ -462,7 +462,12 @@
             loader.classList.add("disppear")
             }
             // PRELOADER SEC END
-
+            // TOOL TIP START
+                var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+                var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                  return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+            // TOOL TIP END
             
             // SIDENAV SEC START
             function openNav() {
