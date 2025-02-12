@@ -627,6 +627,9 @@ body{
 
 
 /* skills sec start */
+.skill-span{
+    color:var(--primary_color);
+}
 .skills-cards{
     border-radius: 100px;
     padding: 60px 40px 60px 40px;
